@@ -1,0 +1,134 @@
+.bigscreen {
+  display: inline;
+}
+.smallscreen {
+  display: none;
+}
+.main-bar {
+  display: flex;
+  height: 70px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-search {
+  position: relative;
+}
+.search-box {
+  z-index: 0;
+  height: 50px;
+  width: 500px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: aliceblue;
+}
+.search-icon {
+  position: absolute;
+  left: 7px;
+  top: 15px;
+  width: 40px;
+  height: 45px;
+}
+.login-icon {
+  position: relative;
+  border-style: solid;
+  border-color: black;
+  border-radius: 1px;
+  border-width: 3px;
+  width: 70px;
+  height: 40px;
+  border-radius: 6px;
+}
+.signup-icon {
+  position: relative;
+  background-color: black;
+  border-style: solid;
+  width: 90px;
+  color: white;
+  height: 40px;
+  border-radius: 6px;
+}
+.small-screen {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  position: relative;
+}
+
+/* small screen */
+
+@media (max-width: 800px) {
+  .bigscreen {
+    display: none;
+  }
+
+  .smallscreen {
+    display: inline;
+  }
+}
+.alarm-part {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  position: relative;
+  background-color: rgb(247, 247, 247);
+}
+.alarm-part-small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  background-color: rgb(247, 247, 247);
+}
+.text-alarm {
+  box-shadow: 10px 10px rgb(205, 199, 199);
+  margin-top: 100px;
+  margin-left: 300px;
+  height: 120px;
+  width: 300px;
+  margin-right: 100px;
+}
+.text-alarm-small {
+  margin-top: 0px;
+  margin-left: -11px;
+  height: 100px;
+  width: 300px;
+}
+.button-style {
+  border-style: none;
+  font-size: 20px;
+  font-style: bold;
+  background-color: white;
+}
+
+.button-style:hover {
+  cursor: pointer;
+  font-size: 25px;
+}
+.Courses-div {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 3110px;
+}
+.Courses-photos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 800px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.one-course{
+
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    max-width: 300px;
+}
