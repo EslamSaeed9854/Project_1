@@ -106,11 +106,10 @@
   font-size: 25px;
 }
 .Courses-div {
-    background-color: azure;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   border-style: solid;
   border-width: 1px;
   border-color: black;
@@ -125,10 +124,12 @@
   margin-top: 20px;
   flex-wrap: wrap;
 }
-.one-course{
-
-    display: flex;
-    flex-direction: column;
-    height: 350px;
-    max-width: 300px;
+.one-course {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  max-width: 300px;
+}
+.checked {
+  color: orange;
 }
