@@ -1,3 +1,11 @@
+*{
+  margin:0;
+  padding:0;
+}
+.porp:hover{
+  color: #5624d0;
+  cursor: pointer;
+}
 .bigscreen {
   display: inline;
 }
@@ -28,7 +36,7 @@
   top: 15px;
   width: 25px;
   height: 50px;
-  height: 15px; 
+  height: 15px;
   margin-right: 10px;
 }
 .search-icon:hover {
@@ -59,14 +67,11 @@
   height: 30px;
   position: relative;
 }
-
 /* small screen */
-
 @media (max-width: 800px) {
   .bigscreen {
     display: none;
   }
-
   .smallscreen {
     display: inline;
   }
@@ -101,22 +106,24 @@
 }
 .button-style {
   border-style: none;
+  color: rgb(205, 199, 199);
   font-size: 20px;
-  font-style: bold;
+  font-weight: bold;
   background-color: white;
+  margin-right: 10px;
 }
-
 .button-style:hover{
   cursor: pointer;
-  font-size: 25px;
+  color:#000;
 }
 .Courses-div{
-  overflow:auto;
+  padding:10px;
   display: flex;
   flex-direction: column;
   border-style: solid;
   border-width: 1px;
   border-color: black;
+  margin: 5px;
 }
 .expore-pyth{
   border-style: groove;
@@ -131,7 +138,6 @@
 .expore-pyth:hover {
   cursor: pointer;
 }
-
 .Courses-photos {
   display: flex;
   align-items: center;
@@ -155,4 +161,7 @@
 }
 .checked {
   color: orange;
+}
+.ptr{
+  cursor: pointer;
 }
