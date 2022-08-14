@@ -10,8 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Online courses - Learn Anything, On Your Schedule | Udemy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="Udemy.css" />
   </head>
   <body>
     <div class="bigscreen">
@@ -110,16 +109,16 @@
         >Choose from 185,000 online video courses with new additions published
         every month<br /><br
       /></strong>
-      <button class="button-style">Python</button>
-      <button class="button-style">Exel</button>
-      <button class="button-style">Web Development</button>
-      <button class="button-style">Java Script</button>
-      <button class="button-style">Data Science</button>
-      <button class="button-style">AWS Certification</button>
-      <button class="button-style">Drawing</button>
+      <button value="Python" class="button-style" id = "python">Python</button>
+      <button value="Exel" class="button-style" id = "exel">Exel</button>
+      <button value="Web Development" class="button-style" id = "web">Web Development</button>
+      <button value="Java Script" class="button-style" id ="java">Java Script</button>
+      <button value="Data Science" class="button-style" id ="data">Data Science</button>
+      <button value="AWS Certification" class="button-style" id="aws">AWS Certification</button>
+      <button value="Drawing" class="button-style" id = "draw">Drawing</button>
       <!--Cources-->
       <div class="Courses-div">
-        <div>
+        <div id = "courseDet">
           <strong style="font-size: 30px; line-height: 2.5"
             >Expand your career opportunities with Python<br
           /></strong>
@@ -246,5 +245,6 @@
         </div>
       </div>
     </div>
+    <script src="js.js"></script>
   </body>
 </html>
