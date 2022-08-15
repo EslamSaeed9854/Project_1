@@ -117,6 +117,7 @@
   color:#000;
 }
 .Courses-div{
+  height: auto;
   padding:10px;
   display: flex;
   flex-direction: column;
@@ -143,7 +144,6 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  height: 800px;
   margin-top: 20px;
   flex-wrap: wrap;
 }
@@ -156,12 +156,15 @@
 .one-course {
   display: flex;
   flex-direction: column;
-  height: 350px;
   max-width: 300px;
+  margin-bottom: 20px;
 }
 .checked {
   color: orange;
 }
 .ptr{
   cursor: pointer;
+}
+.active{
+  color:black
 }
