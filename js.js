@@ -136,7 +136,7 @@ function removeAct()
     links[i].classList.remove("active");
   }
 }
-setTimeout(function () {
+setTimeout(function (){
   pre();}, 0); 
-  setTimeout(function () {
-    Run("python",python_data);curBtn1.classList.add("active")}, 555);
+setTimeout(function (){
+   Run("python",python_data);curBtn1.classList.add("active")}, 555);
