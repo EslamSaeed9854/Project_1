@@ -91,18 +91,20 @@
   background-color: rgb(247, 247, 247);
 }
 .text-alarm {
-  box-shadow: 10px 10px rgb(205, 199, 199);
-  margin-top: 100px;
-  margin-left: 300px;
+  box-shadow: 2px 2px rgb(205, 199, 199);
+  margin-top: 50px;
+  margin-left: 70px;
   height: 120px;
   width: 300px;
-  margin-right: 100px;
+  margin-right: 300px;
+  background-color: white;
 }
 .text-alarm-small {
-  margin-top: 0px;
+  margin-top: 20px;
   margin-left: -11px;
   height: 100px;
   width: 300px;
+  background-color: white;
 }
 .button-style {
   border-style: none;
