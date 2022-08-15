@@ -131,7 +131,7 @@
 .expore-pyth{
   border-style: groove;
   border-color: black;
-  background-color: aqua;
+  background-color: white;
   margin: 2em;
   padding: 0.5em;
   text-decoration: none;
@@ -140,6 +140,7 @@
 }
 .expore-pyth:hover {
   cursor: pointer;
+  background-color: rgb(205, 199, 199);
 }
 .Courses-photos {
   display: flex;
