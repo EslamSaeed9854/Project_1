@@ -51,7 +51,7 @@ curBtn5.addEventListener("click", function(){Run("data");curBtn5.classList.add("
 curBtn6.addEventListener("click", function(){Run("aws");curBtn6.classList.add("active")});
 curBtn7.addEventListener("click", function(){Run("draw");curBtn7.classList.add("active")});
 async function getData(cor) {
-  let res = await fetch('http://192.168.1.146:5501/data/'+cor+'_res.json');
+  let res = await fetch('data/'+cor+'_res.json');
   let data = await res.json();
   console.log(data);
   return data;
