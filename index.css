@@ -43,23 +43,14 @@
   cursor: pointer;
 }
 .login-icon {
-  position: relative;
-  border-style: solid;
-  border-color: black;
-  border-radius: 1px;
-  border-width: 3px;
-  width: 70px;
-  height: 40px;
-  border-radius: 6px;
+   border: 2px solid #000;
+   padding: 5px 10px;
 }
 .signup-icon {
-  position: relative;
   background-color: black;
-  border-style: solid;
-  width: 90px;
   color: white;
-  height: 40px;
-  border-radius: 6px;
+  padding: 7px 12px;
+  border-radius: 3px;
 }
 .small-screen {
   display: flex;
@@ -79,30 +70,32 @@
 .alarm-part {
   display: flex;
   flex-direction: row;
-  height: 300px;
   position: relative;
   background-color: rgb(247, 247, 247);
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0px;
+  padding-bottom: 30px;
 }
 .alarm-part-small {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 400px;
   background-color: rgb(247, 247, 247);
 }
 .text-alarm {
   box-shadow: 2px 2px rgb(205, 199, 199);
   margin-top: 50px;
   margin-left: 70px;
-  height: 120px;
   width: 300px;
-  margin-right: 300px;
+  padding-left:3px ;
+  height: 150px;
+  margin-right: 200px;
   background-color: white;
 }
 .text-alarm-small {
   margin-top: 20px;
   margin-left: -11px;
-  height: 100px;
   width: 300px;
   background-color: white;
 }
@@ -126,7 +119,7 @@
   border-style: solid;
   border-width: 1px;
   border-color: black;
-  margin: 5px;
+ 
 }
 .expore-pyth{
   border-style: groove;
@@ -170,4 +163,25 @@
 }
 .active{
   color:black
+}
+.par{
+  position: relative;
+}
+.slider-b-l{
+  position: absolute;
+  top :17%;
+  left: -0%;
+  z-index: 9999;
+  border-radius: 50%;
+}
+.slider-b-r{
+  position: absolute;
+  right: -0%;
+  top :17%;
+  z-index: 9999;
+  border-radius: 50%; 
+}
+.two_screens{
+   margin: 110px;
+   margin-top: 20px;
 }
